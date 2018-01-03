@@ -37,7 +37,7 @@ if($message['type'] == 'text') {
     	'messages'=>array(
     		array(
     			'type'=>'text',
-    			'text'=>$pesan_datang
+    			'text'=>'Halo Kamu ngetik ini ya : '.$pesan_datang
     			)
     		)
     	);
