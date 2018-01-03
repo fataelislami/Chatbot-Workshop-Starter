@@ -1,6 +1,7 @@
 {
-  "name": "Line_Bot_Workshop",
-  "description": "Workshop LINEBOT",
+  "name": "Workshop BOT",
+  "description": "Membuat Line BOT",
   "repository": "https://github.com/fataelislami/workshop",
-  "keywords": ["line bot", "messaging api"]
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["line", "workshop", "islamify"]
 }
