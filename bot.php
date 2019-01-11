@@ -28,7 +28,7 @@ $pesan_datang = $message['text'];
 $post_datang= $message['postback'];
 $upPesan = strtoupper($pesan_datang);
 
-
+//
      
 if($message['type'] == 'text') {
  
