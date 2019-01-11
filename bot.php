@@ -4,8 +4,8 @@
 require_once('./line_class.php');
 
 
-$channelAccessToken = '6wK6e4545iqR5SY8TTe7gShmcSdP6oUDj3NrUOUIfXDqNRZKCM53rw5SSydefHUC632IQ5B2BsFOfPPSDfMxe5GtPpDE9gz9CBVZ7tgKiGtqrlLK0lE6bWxqSyaT5zITg7CeeP2cRQUZ1s6D7lje0wdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = '5e89a49481f2b6f6ff99f7f78061dbf9';//sesuaikan
+$channelAccessToken = '[placehere]'; //sesuaikan 
+$channelSecret = '[placehere]';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
