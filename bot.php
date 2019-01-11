@@ -9,8 +9,8 @@ $channelSecret = '[placehere]';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
-//
-var_dump($client->parseEvents());
+
+// var_dump($client->parseEvents());
 
 
 $userId = $client->parseEvents()[0]['source']['userId'];
@@ -32,7 +32,7 @@ $upPesan = strtoupper($pesan_datang);
      
 if($message['type'] == 'text') {
  
-    $balas=array(
+    $output=array(
     	'replyToken'=>$replyToken,
     	'messages'=>array(
     		array(
@@ -43,10 +43,9 @@ if($message['type'] == 'text') {
     	);
 }
 
-$result = json_encode($balas);
+$result = json_encode($output);
 
-$client->replyMessage($balas);
+$client->replyMessage($output);
 
 ?>
-</body>
-</html>
+
